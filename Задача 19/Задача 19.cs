@@ -2,7 +2,7 @@
         Console.Write("Введите число: ");
         num = Convert.ToInt32(Console.ReadLine());
         temp = num;
-        while (Convert.ToBoolean(num))
+        while (num > 0)
         {
             rem = num % 10;  
             num = num / 10; 
